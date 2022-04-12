@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.FeatureGrid {
+  display: grid;
+  padding: 0 50px;
+  grid-template-columns: 1fr;
+}
+
+.FeatureGrid h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: -0.01em;
+
+  /* Black */
+
+  color: #000000;
+}
+
+.FeatureGrid p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #999999;
+}
+
+.FeatureContainer {
+  padding: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .FeatureGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
