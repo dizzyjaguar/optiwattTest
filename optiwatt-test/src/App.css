@@ -1,5 +1,39 @@
 .App {
   text-align: center;
+  padding: 2% 0
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.39em;
+  color: #515151;
+}
+
+button {
+  background-color: #903ddf;
+  color: white;
+  padding: 17px, 27px, 17px, 27px;
+  width: 214px;
+  height: 63px;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.HeadingContainer {
+  padding: 0 20%;
 }
 
 .FeatureGrid {
@@ -44,5 +78,12 @@
 @media screen and (min-width: 800px) {
   .FeatureGrid {
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 20%;
+  }
+  .FeatureContainer {
+    margin: 0 25px;
+  }
+  .HeadingContainer {
+    padding: 0 35%;
   }
 }
